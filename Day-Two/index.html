@@ -7,6 +7,42 @@
     <title>Day Two</title>
 </head>
 <body>
-    
+    <script>
+        //level one
+        let challenge = '30 Days Of JavaScript';
+        console.log(challenge);
+        console.log(challenge.length);
+        console.log(challenge.toLocaleUpperCase());
+        console.log(challenge.toLocaleLowerCase());
+        console.log(challenge.substring(3));
+        console.log(challenge.substring(0,3));
+        console.log(challenge.includes('Script'));
+        console.log(challenge.split());
+        console.log(challenge.split(' '));
+        let company = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+        console.log(company.split());
+        console.log(company.split(','));
+        console.log(challenge.replace('JavaScript','Python'));
+        console.log(challenge.charAt(15));
+        console.log(challenge.charCodeAt('J'));
+        console.log(challenge.indexOf('a'));
+        console.log(challenge.lastIndexOf('a'));
+        let sentence = 'You cannot end a sentence with because because because is a conjunction';
+        console.log(sentence.indexOf('because'));
+        console.log(sentence.search('because'));
+        console.log(challenge.trim(' '));
+        console.log(challenge.startsWith('30'));
+        console.log(challenge.endsWith('Script'));
+        console.log(challenge.matchAll(/a/g));
+        let a = "30 Days of";
+        let b = "Javascript Coding";
+        let value = a.concat(' ',b);
+        console.log(value);
+        console.log(challenge.repeat(2));
+
+        //level two
+        console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.");
+        
+    </script>
 </body>
 </html>
